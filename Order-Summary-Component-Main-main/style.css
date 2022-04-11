@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+@media screen and (max-width: 376px){
+
+  body {
+    display: grid;
+    grid-template-columns: minmax(300px, 90vw);
+    justify-content: center;
+
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+  }
+  
+  .card {
+    margin-top: 65px;
+    border-radius: 10px;
+
+    background-color: white;
+  }
+
+  .hero-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 900;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }  
+
+  .card-main-p {
+    text-align: center;
+    line-height: 1.8;
+    
+    margin-bottom: 30px;
+    padding: 0 26px;
+  }
+
+  .card-subscribe{
+    border-radius: 10px;
+    background-color:  hsl(225, 100%, 98%);
+    margin: 0 auto;
+    padding: 15px 0px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+  }
+
+  .subscribe-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }  
+
+  .period {
+    font-weight: 700;
+  }
+
+  .period-cost {
+    color:  hsl(224, 23%, 55%);
+  }
+
+  .card-change {
+    display: flex;
+    align-items: center;
+  }
+
+  .card-payment {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-payment button{
+    background-color: hsl(245, 75%, 52%);
+    box-shadow:  0px 17px 6px 5px #E0E8FF;
+    color: white;
+    font-weight: 700;
+    
+    border: none;
+    border-radius: 10px;
+
+    padding: 18px 0;
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .card-cancel {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-cancel button {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    border: none;
+    
+    background-color: hsla(224, 23%, 55%, 0);
+
+    margin-top: 15px;
+    padding: 18px 0;
+    width: 90%;
+  }
+
+  
+}
+
+
+@media screen and (min-width: 377px) {
+
+  body {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(378px, 30vw);
+
+    background-color: hsl(225, 100%, 94%);
+
+  }
+
+  .card {
+
+      border-radius: 15px;
+      background-color: white;
+      margin-top: 25px;
+      margin-bottom: 70px;
+  }
+
+  img.hero-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .card-main-p {
+
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 26px;
+    text-align: center;
+
+  }
+
+  .card-subscribe {
+
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 5px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .card-change {
+    display: flex;
+    align-items: center;
+  }
+
+  .change {
+    color:hsl(245, 75%, 52%);
+    text-decoration: none;
+  }
+
+  .change:hover {
+    color: hsla(245, 75%, 52%, 0.774);
+  }
+
+
+  .card-payment {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-payment button {
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow:  0px 17px 6px 5px rgba(224, 232, 255, 0.658);
+    color: white;
+    padding: 15px 10px;
+    margin-top: 26px;
+    width: 80%;
+  }  
+
+  .card-payment button:hover {
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.774);
+  }
+
+  .card-cancel {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+  }
+
+  .card-cancel button {
+    border: none;
+    border-radius: 10px;
+    background-color: hsla(224, 23%, 55%, 0);
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    
+    padding: 0px 10px;
+    /* margin-top: 5px; */
+    margin-bottom: 70px;
+    width: 80%;
+  }
+
+  .card-cancel button:hover {
+    cursor: pointer;
+    color: black;
+  }
+
+}
