@@ -41,7 +41,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
 
@@ -61,7 +60,7 @@ I was able to create this project without any code lookup.
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/davupls)
-- Twitter - [@davutech](https://www.twitter.com/davutech)
+- Twitter - [Chi_ago_ziem](https://www.twitter.com/Chi_ago_ziem)
 
 
 ## Acknowledgments
